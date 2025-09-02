@@ -1,3 +1,11 @@
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![Express](https://img.shields.io/badge/Framework-Express-lightgrey)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![Socket.IO](https://img.shields.io/badge/Realtime-Socket.IO-black)
+![WebRTC](https://img.shields.io/badge/Streaming-WebRTC-orange)
+![Deployment](https://img.shields.io/badge/Deploy-Render-purple)
+
 # Zoom Clone (MERN + WebRTC)
 
 A full-stack **Zoom-like video conferencing platform** built with **MERN stack, WebRTC, and Socket.IO**.  
@@ -8,7 +16,7 @@ Deployed on **Render** with MongoDB Atlas.
 🔗 **Live Demo**: [Frontend Link](https://zoom-frontend-x0jb.onrender.com)  
 🔗 **Backend API**: [Backend Link](https://zoom-backend-uau8.onrender.com)  
 
- ## 🧪 Demo Credentials
+ ## Demo Credentials
 
 | Username | Password |
 |----------|----------|
@@ -18,12 +26,24 @@ Deployed on **Render** with MongoDB Atlas.
      
 ---
 
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Folder Structure](#folder-structure)
+- [Getting Started](#getting-started-local-setup)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [Author](#author)
+
+
 ## Features
 - **Real-Time Video Conferencing** – Peer-to-peer video calls powered by WebRTC  
 - **Chat Messaging** – Instant chat during calls using Socket.IO  
 - **Authentication** – User signup & login 
 - **Meeting History** – Track meetings stored in MongoDB   
-- **Secure Deployment** – HTTPS/WSS on Render  
+- **Secure Deployment** – HTTPS on Render  
 
 ---
 
@@ -64,7 +84,7 @@ zoom-clone/
 │ │ ├── index.js
 │ │ └── ...
 │ ├── package.json
-│ └── .package-lock.json
+│ └── package-lock.json
 │
 │── .gitignore
 │── README.md # Project overview
@@ -127,6 +147,17 @@ zoom-clone/
 ---
 
 ## Screenshots
+- **Landing Page**
+  ![Landing](Screenshots/landing.png)
+
+- **Video Call**
+  ![Video Call](Screenshots/atCalling.png)
+  ![Video Call](Screenshots/lobby.png)
+  ![Video Call](Screenshots/callEnd.png)
+
+- **Authentication**
+  ![Signup](Screenshots/signup.png)
+  ![Login](Screenshots/login.png)
 
 ---
 
@@ -147,4 +178,4 @@ Pull requests are welcome! For significant changes, please open an issue to disc
 --- 
 
 ## Author 
-  Build by Ritik Thakur
+  Built by Ritik Thakur
