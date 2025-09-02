@@ -8,7 +8,7 @@ export default function LandingPage() {
     <div className="LandingPageContainer">
       <nav>
         <div className="navHeader">
-          <h2>Apna Video Call</h2>
+          <h2>Video Call App</h2>
         </div>
         <div className="navList">
           <p
@@ -42,7 +42,7 @@ export default function LandingPage() {
             <span style={{ color: "#FF9839" }}>Connect</span> with your loved
             once
           </h1>
-          <p>Cover a distance by Apan Video Call</p>
+          <p>Cover a distance by Video Call App</p>
           <div role="button">
             <Link to={"/auth"}>GET Started</Link>
           </div>
